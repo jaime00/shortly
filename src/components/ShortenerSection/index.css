@@ -1,0 +1,44 @@
+.shortener-section .link-box {
+	background-color: var(--primary-dark-violet);
+	background-image: url('../../assets/images/back-link-box.svg');
+	height: 150px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	padding: 40px 30px;
+	border-radius: 5px;
+	background-size: cover;
+	width: 100%;
+	margin: 4rem 0px;
+}
+
+.shortener-section {
+	margin-top: 4rem !important;
+	position: relative;
+	top: -80px;
+	border-radius: 5px;
+}
+
+.shortener-section .link-box input {
+	padding-left: 25px;
+}
+.shortener-section .link-box input:focus {
+	border-color: transparent;
+	box-shadow: none;
+}
+.shortener-section .link-box input,
+.shortener-section .link-box button.shorten {
+	width: 100%;
+	height: 50px;
+}
+
+.link-box-input {
+	width: 100%;
+}
+
+.link-box-btn input,
+.link-box-btn {
+	width: 100%;
+}

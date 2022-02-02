@@ -1,0 +1,37 @@
+button:focus {
+	outline: none;
+}
+
+button.with-back {
+	color: var(--primary-light);
+	min-width: 160px;
+	background: var(--primary-cyan);
+	font-weight: bold;
+	border: none;
+	padding: 10px 20px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 25px;
+}
+
+button.with-back:active,
+button.not-back:active {
+	background: var(--second-cyan);
+}
+
+button.not-back {
+	color: var(--neutral-grayish-violet);
+	min-width: 110px;
+	background-color: transparent;
+	font-weight: bold;
+	border: none;
+	padding: 10px 20px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 25px;
+}
+
+button.not-back:hover {
+	background: var(--primary-cyan);
+	color: #fff;
+}

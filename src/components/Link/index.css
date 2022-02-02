@@ -1,0 +1,49 @@
+.link {
+	display: flex;
+	flex-flow: row nowrap;
+	background-color: white;
+	border-radius: 5px;
+	align-items: center;
+	margin: 0 0 10px;
+	justify-content: center;
+	align-self: center;
+	align-content: center;
+}
+
+.link > * {
+	margin: 5px 12px;
+}
+.link .link_left {
+	flex-grow: 1;
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.8em;
+	letter-spacing: -0.6px;
+}
+.link .link_left .link-input {
+	color: var(--neutral-very-dark-blue);
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.link .link_left .link-shortened {
+	color: var(--primary-cyan);
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.link .link-btn {
+	width: 80px;
+	height: 30px;
+	font-weight: 700;
+	background-color: var(--primary-cyan);
+	color: white;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+.link .link-btn:hover {
+	opacity: 0.7;
+}
+.link .link-btn.link-btn-copied {
+	background-color: black;
+	color: white;
+}

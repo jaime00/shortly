@@ -1,0 +1,5 @@
+.c-linkbox {
+	display: flex;
+	flex-flow: column nowrap;
+	padding-bottom: 80px;
+}
