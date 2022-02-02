@@ -5,8 +5,8 @@ import Home from './pages/Home'
 function App() {
 	return (
 		<>
-			<Route path="/" component={Home} />
-			<Redirect to="/" />
+			<Route path="/shortly" component={Home} />
+			<Redirect to="/shortly" />
 		</>
 	)
 }

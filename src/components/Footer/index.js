@@ -5,7 +5,7 @@ import './index.css'
 
 const SiteLink = ({ label }) => {
 	return (
-		<Link className="footer-site-link" to="/">
+		<Link className="footer-site-link" to="/shortly">
 			{label}
 		</Link>
 	)
