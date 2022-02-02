@@ -23,17 +23,17 @@ export default function Navbar() {
 			<div className="ml-2 collapse navbar-collapse" id="navbarSupportedContent">
 				<ul className="navbar-nav mr-auto">
 					<li className="nav-item mx-2 active">
-						<a className="nav-link" href="/shortly" class="e">
+						<a className="nav-link" href="/shortly" id="e">
 							<b>Features</b>
 						</a>
 					</li>
 					<li className="nav-item mx-2">
-						<a className="nav-link" href="/shortly" class="e">
+						<a className="nav-link" href="/shortly" id="e">
 							<b>Pricing</b>
 						</a>
 					</li>
 					<li className="nav-item mx-2">
-						<a className="nav-link" href="/shortly" class="e">
+						<a className="nav-link" href="/shortly" id="e">
 							<b>Resources</b>
 						</a>
 					</li>
