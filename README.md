@@ -1,8 +1,61 @@
-# Getting Started with Create React App
+# Shortly - Frontend Mentor 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Design preview for the shortly website coding challenge](./src/assets/images/preview.jpg)](https://jaime00.github.io/shortly)
 
-## Available Scripts
+## Table of contents
+
+-   [Overview](#overview)
+    -   [Intro](#intro)
+    -   [The challenge](#the-challenge)
+-   [Resources](#resources)
+    -   [Links](#links)
+    -   [Built with](#built-with)
+    -   [Setup](#setup)
+
+## Overview
+
+### Intro
+
+Hello! This is my solution to [Shortly - Frontend Mentor](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G) challenge.
+
+
+### The challenge
+
+> #
+> Your challenge is to integrate with the shrtcode API to create shortened URLs and display them like in the designs.
+> 
+> You can use any JavaScript framework/library on the front-end such as React or Vue. You also have complete control over which packages you use to do things like make HTTP requests or style your project.
+> 
+> Your users should be able to:
+> 
+> -   View the optimal layout for the site depending on their device's screen size
+> -   Shorten any valid URL
+> -   See a list of their shortened links, even after refreshing the browser
+> -   Copy the shortened link to their clipboard in a single click
+> -   Receive an error message when the `form` is submitted if:
+>     - The input field is `empty`
+> #
+
+
+
+## Resources
+### Links
+
+-   [Preview](https://jaime00.github.io/shortly) to check my solution.
+-   [Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
+### Built with
+
+-   ReactJS
+-   Create React App
+-   Semantic HTML5 markup
+-   JavaScript
+-   Wouter
+-   Flexbox
+-   Bootstrap
+
+## Setup
+
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -39,32 +92,9 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
